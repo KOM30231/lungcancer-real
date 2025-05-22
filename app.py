@@ -5,7 +5,7 @@ import numpy as np
 import os
 
 app = Flask(__name__)
-model = load_model("model.h5")
+model = load_model("lung_cancer_model.h5")
 
 @app.route('/')
 def home():
