@@ -2,6 +2,8 @@
 tensorflow
 numpy
 pillow
+flask_wtf
+wtforms
 gunicorn
 absl-py==2.2.2
 astunparse==1.6.3
